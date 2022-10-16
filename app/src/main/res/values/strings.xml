@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JetPack UI Demo</string>
+    <string name="name">Hi! SAi Dubey</string>
+    <string name="name_subtitle">What Would you Buy today?</string>
+    <string name="scheme">Enjoy the special offer \nup to 60%</string>
+    <string name="scheme_time">at 13–20 Oct 2022</string>
+    <string name="categories">Categories</string>
+
+    <string name="ca1">Bread</string>
+    <string name="ca2">Fruit</string>
+    <string name="ca3">Dairy</string>
+    <string name="seeall">See All</string>
+    <string name="best_selling">Best Selling</string>
+    <string name="orange">Orange Fresh Juice</string>
+    <string name="carrot">Fresh Carrot</string>
+    <string name="grapes">Juice Grapes</string>
+    <string name="description">What Would you Buy today Enjoy the special offer \nup to 60% Enjoy the special offer \nup to 60%</string>
+    <string name="price">₹99.00</string>
+    <string name="underprice">199.00</string>
+
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+</resources>
