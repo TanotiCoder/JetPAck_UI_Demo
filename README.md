@@ -14,4 +14,5 @@ jetpack compose for Beginners guidance
 
 
 ### video 
-https://user-images.githubusercontent.com/81159555/196046935-bd6456ff-26fc-4523-8956-79d1b7cdc619.mp4
+
+![trimmed-000-202-1665938935535](https://user-images.githubusercontent.com/81159555/196047823-a05fb054-c9eb-4220-9fc9-b5a89b203c2f.gif)
