@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -23,6 +24,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.flutkit.Greeting
 import com.example.flutkit.ui.theme.Green
+import com.example.flutkit.ui.theme.liteGreen
 import com.example.flutkit.utils.Constant
 
 @Composable
@@ -43,7 +45,12 @@ fun NavHostContainer(navController: NavHostController, padding: PaddingValues) {
 @Composable
 fun BottomNavigationBar(navController: NavHostController) {
 
-    BottomNavigation(modifier = Modifier.padding(8.dp,0.dp,8.dp,8.dp).clip(RoundedCornerShape(10.dp)) ,backgroundColor = Color.White) {
+    BottomNavigation(
+        modifier = Modifier
+            .padding(8.dp, 0.dp, 8.dp, 8.dp)
+            .clip(RoundedCornerShape(10.dp))
+            .shadow(3.dp), backgroundColor = liteGreen
+    ) {
         val navBackStackEntry by navController.currentBackStackEntryAsState()
         val currentRoute = navBackStackEntry?.destination?.route
 
