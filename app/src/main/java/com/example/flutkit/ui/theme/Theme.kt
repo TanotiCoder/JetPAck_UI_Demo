@@ -55,13 +55,7 @@ fun FlutKitTheme(
         else -> LightColorScheme
     }
 
-    val systemUiController = rememberSystemUiController()
-    SideEffect {
-        systemUiController.setStatusBarColor(
-            color = Color.White,
-            darkIcons = true
-        )
-    }
+
 
     val view = LocalView.current
     if (!view.isInEditMode) {
@@ -70,7 +64,13 @@ fun FlutKitTheme(
             ViewCompat.getWindowInsetsController(view)?.isAppearanceLightStatusBars = darkTheme
         }
     }
-
+    val systemUiController = rememberSystemUiController()
+    SideEffect {
+        systemUiController.setStatusBarColor(
+            color = Color.White,
+            darkIcons = true
+        )
+    }
     MaterialTheme(
         colorScheme = colorScheme,
         typography = FlutTypography,
